@@ -3,63 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">Fadhil Syamil</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="profile.html">Our Profile</a></li>
-            <li><a href="contact.html">Message Us</a></li>
-        </ul>
-        <div class="hamburger">☰</div>
-    </nav>
+    <header class="main-header">
+        <!--logo-->
+        <div class="logo-icon"></div>
 
-     <main class="container">
-        <h1>Message Us</h1>
-        <form id="contact-form">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <span class="error-message" id="name-error"></span>
-            </div>
-            
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <span class="error-message" id="email-error"></span>
-            </div>
-            
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required>
-                <span class="error-message" id="phone-error"></span>
-            </div>
-            
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <span class="error-message" id="message-error"></span>
-            </div>
-            
-            <button type="submit">Submit</button>
-        </form>
+        <!--navigation-->
+        <nav>
+            <a href="#section-home" class="section-home">Home</a>
+            <a href="#section-our-profile">My Profile</a>
+            <a href="#section-portofolio">Portofolio</a>
+            <a href="#section-message-us" class="section-message-us">Message Us</a>
+        </nav>
+    </header>
 
-        <div id="submitted-data" class="hidden">
-            <h2>Submitted Information</h2>
-            <p><strong>Name:</strong> <span id="display-name"></span></p>
-            <p><strong>Email:</strong> <span id="display-email"></span></p>
-            <p><strong>Phone:</strong> <span id="display-phone"></span></p>
-            <p><strong>Message:</strong> <span id="display-message"></span></p>
-        </div>
+
+
+    <main>
+        <!--Home-->
+        <section id="section-home">
+            <header class="well">
+                <h1 class="inline">Hi <h1 class="inline" id="user-name">User </h1><h1 class="inline"> Welcome to My Website</h1>
+            </header>
+
+            <article>
+                <p >Di balik karya yang indah, Terdapat tangan yang lelah</p>
+
+                <!--photo banner-->
+                <div class="photo-banner photo-1"></div>
+                <div class="photo-banner photo-2"></div>
+                <div class="photo-banner photo-3"></div>
+            </article>
+        </section>
+
+        <hr>
+
+        <!--My Profile-->
+        <section id="section-our-profile">
+            <header class="mep">
+                <h1 class="my">My Profile</h1>
+
+            <div class="profile-icon-container">
+                <div>
+                    <img class="profil-1" class="inline">
+                        <article-profile>
+                            <h3>Pembuat Mini Project ini
+                                 <br>Bernama Muhammad Fadhil As-Syamil
+                                 <br>Lahir di Sukabumi pada 22 Mei 2006
+                                 <br> Ya, Pembuat Mini Project ini tergolong masih muda
+                            </h3>
+                        </article-profile>
+                    </img>
+                </div>
+
+                <div>
+                    <img class="profil-2" class="inline">
+                        <h3>Muhammad Fadhil As-Syamil atau lebih di kenal Fadhil 
+                            <br> Masih Menempuh pembelajaran nya Di MA AL-Hikmah 2 Cirebon
+                            <br> dan berniat melanjutkan Pengguruan Tinggi
+                            <br> Universitas Brawijaya dengan Prodi Teknik Informatika
+                        </h3>
+                    </img>
+                </div>
+
+                <div>
+                    <img class="profil-3" class="inline">
+                        <h3>Fadhil tersendiri memiliki Hobi yang tergolong No Live ya
+                            <br>Hobi yang paling di gemari adalah Bermain Game
+                            <br>Adapun Fotografi dan juga Touring
+                            <br>Software Engineering adalah impian nya untuk di masa kerja 
+                        </h3>
+                    </img>
+                </div>
+            </header>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!--Portofolio-->
+        <section id="section-portofolio">
+            <header class="pt">
+                <h1>Portofolio</h1>
+            </header>
+                <header-portofolio>
+                    <div class="header-container">
+                        <h1>Muhammad Fadhil As-Syamil</h1>
+                        <p>Siswa MA Al-Hikmah 2 Cirebon - Kelas XII</p>
+                    </div>
+                </header-portofolio>
+            
+                <section class="about-section">
+                    <h2>Tentang Saya</h2>
+                    <p>Halo, saya Muhammad Fadhil As-Syamil, seorang siswa SMA yang tertarik dalam dunia teknologi, khususnya pemrograman dan desain grafis. Saya gemar belajar hal-hal baru dan selalu bersemangat dalam mengejar pengetahuan di bidang IT.</p>
+                </section>
+            
+                <section class="education-section">
+                    <h2>Pendidikan</h2>
+                    <ul>
+                        <li>MA Al-Hikmah 2 Cirebon - Kelas XII (2022 - Sekarang)</li>
+                        <li>SMPS IKADI Purwakarta (2019 - 2022)</li>
+                        <li>SDIT Al-Husna Parungkuda (2014 - 2019)</li>
+                    </ul>
+                </section>
+            
+                <section class="skills-section">
+                    <h2>Keterampilan</h2>
+                    <ul>
+                        <li>Fotografi, Videografi</li>
+                        <li>Desain Grafis dengan Photoshop dan Canva</li>
+                        <li>Public Speaking dan Presentasi</li>
+                        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                    </ul>
+                </section>
+            
+            </header>
+        </section>
+
+        <hr>
+
+        <!--Message Us-->
+        <section id="section-message-us">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+             <section class="form-container">
+                <!--Form section-->
+                <form id="myForm">
+                    <table>
+                      <tr>
+                        <td><label for="name">Nama:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                        <td><div class="error" id="nameError"></div></td>
+                      </tr>
+                      <tr>
+                        <td><label for="dob">Tanggal Lahir:</label></td>
+                        <td><input type="date" id="dob" name="dob" required></td>
+                        <td><div class="error" id="dobError"></div></td>
+                      </tr>
+                      <tr>
+                        <td><label for="gender">Jenis Kelamin:</label></td>
+                        <td>
+                          <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                          <label for="male">Laki-Laki</label>
+                          <input type="radio" id="female" name="gender" value="Perempuan">
+                          <label for="female">Perempuan</label>
+                        </td>
+                        <td><div class="error" id="genderError"></div></td>
+                      </tr>
+                      <tr>
+                        <td><label for="message">Pesan:</label></td>
+                        <td><textarea id="message" name="message" required></textarea></td>
+                        <td><div class="error" id="messageError"></div></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2"><input type="submit" value="Submit"></td>
+                      </tr>
+                    </table>
+                </form>
+            </section> 
+            <!--Result Form-->
+            <div class="output-container" id="output">
+                <p><strong>Current time :</strong> <span id="currentTime"></span></p>
+                <p><strong>Nama :</strong> <span id="outputName"></span></p>
+                <p><strong>Tanggal Lahir :</strong> <span id="outputDob"></span></p>
+                <p><strong>Jenis Kelamin :</strong> <span id="outputGender"></span></p>
+                <p><strong>Pesan :</strong> <span id="outputMessage"></span></p>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
     </main>
 
     <footer>
-        <p>&copy; 2025 Fadhil Syamil. All rights reserved.</p>
+        <p class="textmade">Made By Fadhil Syamil @2024</p>
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
