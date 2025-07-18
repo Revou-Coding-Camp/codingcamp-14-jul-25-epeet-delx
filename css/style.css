@@ -75,7 +75,7 @@ nav > a.active {
 .logo-icon {
     height: 50px;
     width: 50px;
-    background-image: url(../assets/logo.jpg);
+    background-image: url(assets\logo.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50px;
@@ -177,7 +177,7 @@ article {
 .profil-1 {
     height: 300px;
     width: 300px;
-    background-image: url(../assets/profil-0.JPG);
+    background-image: url(assets\profil-0.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 150px;
@@ -195,7 +195,7 @@ article {
 .profil-3 {
     height: 300px;
     width: 300px;
-    background-image: url(../assets/profil-2.JPG);
+    background-image: url(assets\profil-2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 150px;
