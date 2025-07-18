@@ -75,7 +75,7 @@ nav > a.active {
 .logo-icon {
     height: 50px;
     width: 50px;
-    background-image: url(assets\logo.jpg);
+    background-image: url(../assets/logo.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50px;
